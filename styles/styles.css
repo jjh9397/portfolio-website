@@ -14,6 +14,7 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
   color: whitesmoke;
   background-color: rgb(86, 121, 126);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -62,5 +63,20 @@ body {
 
 img {
   display: block;
-  max-width: 100%;
+  max-width: auto;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.project-image {
+    object-fit: cover;
+    width: 30vw;
+    height: 100%;
 }

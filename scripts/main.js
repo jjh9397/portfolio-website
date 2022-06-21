@@ -1,5 +1,5 @@
 
-
+/*
 let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
@@ -14,3 +14,4 @@ myImage.onclick = function() {
       myHeading.textContent = 'blue';
     }
 }
+*/
